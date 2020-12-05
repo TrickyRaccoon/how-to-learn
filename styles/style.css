@@ -59,7 +59,7 @@
   top: 64px;
   height: 568px;
   width: 568px;
-  background-color:  #2f80ed;
+  background-color: #2f80ed;
 }
 .header__link{
   color: #2f80ed;
@@ -98,7 +98,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin:0;
+  margin: 0;
 }
 .two-columns__paragraph:nth-of-type(2){
   margin-top: 30px;
@@ -256,7 +256,7 @@
 .footer{
   min-height: 350px;
   display:flex;
-  background-color: #1f1f1f ;
+  background-color: #1f1f1f;
 }
 .footer__columns{
   display:flex;
