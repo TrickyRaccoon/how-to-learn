@@ -235,10 +235,9 @@
   background-size: 877px 877px;
   background-position: top right;
   background-repeat: no-repeat;
-  ba
 }
 .section-title_theme_dark{
-  z-index: 3;
+  z-index:3;
   margin-top: 90px;
   color: white;
 }
