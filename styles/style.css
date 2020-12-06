@@ -71,7 +71,7 @@
   display: flex;
   justify-content: center;
 }
-.description__two-columns{
+.two-columns{
   display: flex;
   width: 80%;
   margin-top: 100px;
@@ -85,7 +85,6 @@
   font-weight: normal;
   margin: 0;
   color: #2f80ed;
-  text-decoration: none;
 }
 .two-columns__main-text{
   display: flex;
@@ -138,6 +137,7 @@
 }
 .section-subtitle_theme_white{
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .table{
   display: flex;
@@ -151,10 +151,6 @@
 .table__cell_theme_white{
   margin-top: 60px;
   width: 250px;
-  margin-bottom: 60px;
-}
-.table__cell_theme_white:nth-of-type(5){
-  margin-bottom: 0px;
 }
 .table__heading{
   line-height: 1.15;
@@ -166,10 +162,10 @@
 .table__text{
   line-height: 1.2;
   font-weight: normal;
-  font-weight: 18px;
+  font-size: 18px;
   margin: 0;
 }
-.table__bottom-text{
+.table__text_bottom-text{
   margin-top: 20px;
 }
 
@@ -182,6 +178,7 @@
   overflow: hidden;
   background-color: #f2f2f2;
   z-index: 1;
+  padding-top: 100px;
 }
 .feynman__main-illustration{
   width: 867px;
@@ -223,26 +220,28 @@
 
 .kaufman{
   position: relative;
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color:  #1f1f1f;
   overflow: hidden;
-  background-image: url(../images/kaufman-triangle.svg);
-  background-size: 877px 877px;
-  background-position: top right;
-  background-repeat: no-repeat;
 }
 .section-title_theme_dark{
+  z-index: 1;
   margin-top: 90px;
-  color: white;
-}
-.section-subtitle_theme_dark{
   color: white;
   margin-bottom: 0px;
 }
+.section-subtitle_theme_dark{
+  z-index: 1;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
 .table_theme_dark{
+  z-index: 1;
   margin-bottom: 90px;
 }
 .table__cell_theme_dark {
@@ -252,8 +251,19 @@
   margin-top: 80px;
   margin-bottom: 0px;
 }
+.kaufman__triangle{
+  z-index: 0;
+  position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  top:0px;
+  right: -210px;
+}
 
 .footer{
+  display: flex;
+  justify-content: center;
   min-height: 350px;
   display:flex;
   background-color: #1f1f1f;
@@ -282,6 +292,7 @@
   font-weight: normal;
   padding-top: 18px;
   padding-bottom: 18px;
+  margin: 0;
 }
 .footer__column{
   display: flex;
@@ -293,6 +304,7 @@
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top:0;
 }
 .footer__column-links{
   display: flex;
@@ -303,6 +315,7 @@
 .footer__column-link{
   text-decoration: none;
   color: white;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   padding-left: 0px;
