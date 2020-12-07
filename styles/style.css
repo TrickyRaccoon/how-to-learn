@@ -156,8 +156,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin:0;
 }
 .table__text{
   line-height: 1.2;
@@ -165,10 +164,9 @@
   font-size: 18px;
   margin: 0;
 }
-.table__text_bottom-text{
+.table__text:last-child{
   margin-top: 20px;
 }
-
 
 .feynman{
   position: relative;
@@ -258,6 +256,7 @@
   height: 877px;
   top:0px;
   right: -210px;
+  background-size: cover;
 }
 
 .footer{
