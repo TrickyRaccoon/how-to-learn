@@ -10,5 +10,5 @@
 .footer__column-link:hover,
 .footer__column-link:active {
   opacity: 0.5;
-  transition: 1s ;
+  transition: 1s;
 }
