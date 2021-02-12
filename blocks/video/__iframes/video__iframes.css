@@ -1,0 +1,7 @@
+.video__iframes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: -40px;
+}
